@@ -26,6 +26,7 @@ Script for evaluating the methods in `CellSegmenter.py` and `CellCounter.py`.
 ## task.py
 
 Script that segments and counts cell nuclei in H&E stained images. Outputs images comparing the result with a reference image, e.g.
+
 ![Human_Mediastinum_03](https://user-images.githubusercontent.com/22216765/160824035-f2686b9f-fd42-4b82-aed1-68a02ecc537c.png)
 
 # Testing environment
