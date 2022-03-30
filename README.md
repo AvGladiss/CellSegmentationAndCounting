@@ -3,7 +3,7 @@ Python implemenation for segmentation and counting of cell nuclei in histologica
 
 # Architecture
 
-##`DataHandler
+## DataHandler
 
 Feautures functions for reading H&E stained images and binary reference images
 
