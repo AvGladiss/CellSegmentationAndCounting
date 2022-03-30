@@ -37,6 +37,8 @@ for f in imList:
     nrCells_imgRef = output[0]
     imgRef_withContours = output[2]
     
+    print(str(nrCells_segmentedImg)+" cell nuclei found. "+str(nrCells_imgRef)+" cell nuclei found in reference image.")
+    
     # plotting and saving the findings in comparison to the manually labeled data
     fig, ax = plt.subplots(1, 2)
     ax[0].imshow(imgRef_withContours,cmap="gray")
@@ -50,3 +52,5 @@ for f in imList:
     plt.savefig(outputDir+plotFilename)
     # plt.show()
     plt.close()
+    
+    print("")
