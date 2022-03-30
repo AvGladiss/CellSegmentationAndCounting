@@ -55,7 +55,7 @@ class Calibration:
             # find contours on labeled image
             imgRef = DataHandler.getRefImage(f)
             cnts = cv2.findContours(imgRef.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-            cnts = cnts[1]
+            cnts = cnts[0]
             for c in cnts:
                 # calculate the pixel area of each contour found
                 area = cv2.contourArea(c)
